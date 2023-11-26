@@ -12,4 +12,4 @@ int main()
 	kitty.speak();
 	Cat nabi; // object
 	nabi.speak();
-}
+} 
