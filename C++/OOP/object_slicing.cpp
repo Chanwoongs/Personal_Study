@@ -33,6 +33,11 @@ private:
 	double catData;
 };
 
+bool operator==(const Cat& lhs, const Cat& rhs)
+{
+	return lhs.data == rhs.data;
+}
+
 void f(Aniaml animal) // reference 로 받아야한다.
 {
 
