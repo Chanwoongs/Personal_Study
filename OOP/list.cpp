@@ -1,5 +1,5 @@
 #include <list>
-
+#include <forward_list>
 using namespace std;
 
 int main()
@@ -14,4 +14,7 @@ int main()
 	{
 		nums.emplace(it, 100);
 	}
+
+	forward_list<int> nums2{ 1,2,3,4,5 };
+	nums2.emplace_front(0);
 }
